@@ -1,0 +1,33 @@
+# Terraform files
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Sensitive files
+*.tfvars
+*.pem
+*.key
+*.pub
+
+# SSH keys
+id_rsa
+id_ed25519
+*.ppk
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
